@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Анастасия Глухова](https://up.htmlacademy.ru/javascript/29/user/2282025).
-* Наставник: [Андрей Волошко](https://htmlacademy.ru/profile/id1655583).
+* Наставник: [Виктория Никитина](https://htmlacademy.ru/profile/id1217273).
 
 ---
 
