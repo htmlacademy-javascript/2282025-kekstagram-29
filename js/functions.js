@@ -3,7 +3,7 @@ const checkLineLength = (line, maxLine) => line.length <= maxLine;
 
 
 checkLineLength('проверяемая строка', 20);
-console.log(checkLineLength('проверяемая строка', 20));
+// console.log(checkLineLength('проверяемая строка', 20));
 
 // Cтрока короче 20 символов: true
 // Длина строки ровно 18 символов: true
@@ -19,7 +19,8 @@ const checkPolindrom = (line) => {
   }
   return lineNorm === lineNew;
 };
-console.log(checkPolindrom('Лёша на полке клопа нашёл '));
+checkPolindrom('Лёша на полке клопа нашёл ');
+// console.log(checkPolindrom('Лёша на полке клопа нашёл '));
 
 // Строка является палиндромом 'топот': true
 // Несмотря на разный регистр, тоже палиндром 'ДовОд':true
@@ -38,7 +39,8 @@ const takeNumber = (line) => {
   }
   return parseInt(number, 10);
 };
-console.log(takeNumber('а я томат'));
+takeNumber('а я томат');
+// console.log(takeNumber('а я томат'));
 
 // '2023 год') // 2023
 // ('ECMAScript 2022') // 2022
